@@ -1,0 +1,91 @@
+@media (max-width: 1366px) {
+  h1 {
+    font-family: $font;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+  }
+  h2 {
+    font-family: $font;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .caption-L-medium {
+    font-family: $font;
+    font-size: 12px;
+    line-height: 16px;
+    line-height: 104%;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+  }
+  .caption-L-regular {
+    font-family: $font;
+    font-size: 12px;
+    line-height: 16px;
+    line-height: 104%;
+    letter-spacing: -0.02em;
+    font-weight: 200;
+  }
+  .caption-L-light {
+    font-family: $font;
+    font-size: 12px;
+    line-height: 16px;
+    line-height: 104%;
+    letter-spacing: -0.02em;
+    font-weight: 100;
+  }
+  .caption-M-medium {
+    font-family: $font;
+    font-size: 10px;
+    line-height: 14px;
+    line-height: 107%;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+  }
+  .caption-M-regular {
+    font-family: $font;
+    font-size: 10px;
+    line-height: 14px;
+    line-height: 107%;
+    letter-spacing: -0.02em;
+    font-weight: 200;
+  }
+  .caption-M-light {
+    font-family: $font;
+    font-size: 10px;
+    line-height: 14px;
+    line-height: 107%;
+    letter-spacing: -0.02em;
+    font-weight: 100;
+  }
+  .caption-S-regular {
+    font-family: $font;
+    font-size: 8px;
+    line-height: 10px;
+    line-height: 97%;
+    letter-spacing: -0.02em;
+    font-weight: 200;
+  }
+  .body-semibold {
+    font-family: $fontBody;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    line-height: 105%;
+  }
+  .body-semibold p+p {
+    padding-top: 8px;
+  }
+  .body-regular {
+    font-family: $fontBody;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 24px;
+    line-height: 105%;
+  }
+  .body-regular p+p {
+    padding-top: 8px;
+  }
+}

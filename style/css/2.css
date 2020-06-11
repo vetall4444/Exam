@@ -1,0 +1,196 @@
+.Page-title {
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.Page-subtitle {
+  font-family: 'Segoe UI';
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.button {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.button:disabled {
+  background-color: #fd9;
+}
+.button:hover {
+  background-color: #fec;
+}
+@media (max-width: 1366px) {
+  .button:hover {
+    border: 1.5px solid #fec;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .button:hover {
+    border: 2px solid #fec;
+  }
+}
+@media (min-width: 1920px) {
+  .button:hover {
+    border: 2.8px solid #fec;
+  }
+}
+.button_alt {
+  background-color: #fff;
+}
+@media (max-width: 1366px) {
+  .button_alt {
+    border: 1.5px solid #fc6;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .button_alt {
+    border: 2px solid #fc6;
+  }
+}
+@media (min-width: 1920px) {
+  .button_alt {
+    border: 2.8px solid #fc6;
+  }
+}
+.button_alt:disabled {
+  background-color: #fff !important;
+}
+@media (max-width: 1366px) {
+  .button_alt:disabled {
+    border: 1.5px solid #fc6 !important;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .button_alt:disabled {
+    border: 2px solid #fc6 !important;
+  }
+}
+@media (max-width: 1366px) {
+  .button_alt:hover {
+    border: 1.5px solid #fc6 !important;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .button_alt:hover {
+    border: 2px solid #fc6 !important;
+  }
+}
+.button_accent {
+  background-color: #fc6;
+}
+@media (max-width: 1366px) {
+  .button_accent {
+    border: 1.5px solid #fc6;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .button_accent {
+    border: 2px solid #fc6;
+  }
+}
+@media (min-width: 1920px) {
+  .button_accent {
+    border: 2.8px solid #fc6;
+  }
+}
+.button_accent:disabled {
+  background-color: #fd9;
+}
+@media (max-width: 1366px) {
+  .button_accent:disabled {
+    border: 1.5px solid #fd9;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .button_accent:disabled {
+    border: 2px solid #fd9;
+  }
+}
+@media (min-width: 1920px) {
+  .button_accent:disabled {
+    border: 2.8px solid #fd9;
+  }
+}
+.button_secondary {
+  background-color: #ddd;
+}
+@media (max-width: 1366px) {
+  .button_secondary {
+    border: 1.5px solid #ddd;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .button_secondary {
+    border: 2px solid #ddd;
+  }
+}
+@media (min-width: 1920px) {
+  .button_secondary {
+    border: 2.8px solid #ddd;
+  }
+}
+.button_secondary:disabled {
+  background-color: #c4c4c4 !important;
+}
+@media (max-width: 1366px) {
+  .button_secondary:disabled {
+    border: 1.5px solid #c4c4c4 !important;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .button_secondary:disabled {
+    border: 2px solid #c4c4c4 !important;
+  }
+}
+@media (min-width: 1920px) {
+  .button_secondary:disabled {
+    border: 2.8px solid #c4c4c4 !important;
+  }
+}
+.button_secondary:hover {
+  background-color: #f2f2f2;
+}
+@media (max-width: 1366px) {
+  .button_secondary:hover {
+    border: 1.5px solid #f2f2f2;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .button_secondary:hover {
+    border: 2px solid #f2f2f2;
+  }
+}
+@media (min-width: 1920px) {
+  .button_secondary:hover {
+    border: 2.8px solid #f2f2f2;
+  }
+}
+.button_ghost {
+  background-color: transparent !important;
+}
+@media (max-width: 1366px) {
+  .button_ghost {
+    border: 1.5px solid transparent !important;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .button_ghost {
+    border: 2px solid transparent !important;
+  }
+}
+@media (min-width: 1920px) {
+  .button_ghost {
+    border: 2.8px solid transparent !important;
+  }
+}

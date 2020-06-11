@@ -1,0 +1,576 @@
+$font = 'Segoe UI';
+$fontBody = 'Times New Roman';
+$body = #222222;
+$dark-grey = #666666;
+$dark-grey-2 = #C4C4C4;
+$grey-2 = #DDDDDD;
+$light-grey = #F2F2F2;
+$white = #FFFFFF;
+$accent_active = #FFCC66;
+$picked = #FFDD99;
+$on_hover = #FFEECC;
+$sucess = #6CD858;
+$error = #FF533D;
+
+.Page-title {
+    font-family: $font;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.Page-subtitle {
+    font-family: $font;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1366px) {
+    h1 {
+        font-family: $font;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+    }
+
+    h2 {
+        font-family: $font;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    button {
+        font-family: $font;
+        font-size: 10px;
+        line-height: 12px;
+        line-height: 83%;
+        font-weight: 200;
+    }
+
+    .button {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: none;
+        align-items: center;
+        text-align: center;
+    }
+
+    .button:disabled {
+        background-color: $picked;
+    }
+
+    .button:hover {
+        background-color: $on_hover;
+        border: 1.5px solid $on_hover;
+    }
+
+    .button_alt {
+        background-color: $white;
+        border: 1.5px solid $accent_active;
+    }
+
+    .button_alt:disabled {
+        background-color: $white !important;
+        border: 1.5px solid $accent_active !important;
+    }
+
+    .button_alt:hover {
+        border: 1.5px solid $accent_active !important;
+    }
+
+    .button_accent {
+        background-color: $accent_active;
+        border: 1.5px solid $accent_active;
+    }
+
+    .button_accent:disabled {
+        background-color: $picked;
+        border: 1.5px solid $picked;
+    }
+
+    .button_secondary {
+        background-color: $grey-2;
+        border: 1.5px solid $grey-2;
+    }
+
+    .button_secondary:disabled {
+        background-color: $dark-grey-2 !important;
+        border: 1.5px solid $dark-grey-2 !important;
+    }
+
+    .button_secondary:hover {
+        border: 1.5px solid $light-grey;
+        background-color: $light-grey;
+    }
+
+    .button_ghost {
+        background-color: transparent !important;
+        border: 1.5px solid transparent !important;
+    }
+
+    .button_ghost :hover {
+        background-color: transparent;
+        border: 1.5px solid transparent;
+    }
+
+    .caption-L-medium {
+        font-family: $font;
+        font-size: 12px;
+        line-height: 16px;
+        line-height: 104%;
+        letter-spacing: -0.02em;
+        font-weight: 400;
+    }
+
+    .caption-L-regular {
+        font-family: $font;
+        font-size: 12px;
+        line-height: 16px;
+        line-height: 104%;
+        letter-spacing: -0.02em;
+        font-weight: 200;
+    }
+
+    .caption-L-light {
+        font-family: $font;
+        font-size: 12px;
+        line-height: 16px;
+        line-height: 104%;
+        letter-spacing: -0.02em;
+        font-weight: 100;
+    }
+
+    .caption-M-medium {
+        font-family: $font;
+        font-size: 10px;
+        line-height: 14px;
+        line-height: 107%;
+        letter-spacing: -0.02em;
+        font-weight: 400;
+    }
+
+    .caption-M-regular {
+        font-family: $font;
+        font-size: 10px;
+        line-height: 14px;
+        line-height: 107%;
+        letter-spacing: -0.02em;
+        font-weight: 200;
+    }
+
+    .caption-M-light {
+        font-family: $font;
+        font-size: 10px;
+        line-height: 14px;
+        line-height: 107%;
+        letter-spacing: -0.02em;
+        font-weight: 100;
+    }
+
+    .caption-S-regular {
+        font-family: $font;
+        font-size: 8px;
+        line-height: 10px;
+        line-height: 97%;
+        letter-spacing: -0.02em;
+        font-weight: 200;
+    }
+
+    .body-semibold {
+        font-family: $fontBody;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        line-height: 105%;
+
+        p+p {
+            padding-top: 8px;
+        }
+    }
+
+    .body-regular {
+        font-family: $fontBody;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 24px;
+        line-height: 105%;
+
+        p+p {
+            padding-top: 8px;
+        }
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1920px) {
+    h1 {
+        font-family: $font;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        line-height: 104%;
+        letter-spacing: -0.02em;
+    }
+
+    h2 {
+        font-family: $font;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        line-height: 111%;
+        letter-spacing: -0.02em;
+    }
+
+    button {
+        font-family: $font;
+        font-size: 14px;
+        line-height: 14px;
+        line-height: 83%;
+        font-weight: 200;
+    }
+
+    .button {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: none;
+        align-items: center;
+        text-align: center;
+    }
+
+    .button:disabled {
+        background-color: $picked;
+    }
+
+    .button:hover {
+        background-color: $on_hover;
+        border: 2px solid $on_hover;
+    }
+
+    .button_alt {
+        background-color: $white;
+        border: 2px solid $accent_active;
+    }
+
+    .button_alt:disabled {
+        background-color: $white !important;
+        border: 2px solid $accent_active !important;
+    }
+
+    .button_alt:hover {
+        border: 2px solid $accent_active !important;
+    }
+
+    .button_accent {
+        background-color: $accent_active;
+        border: 2px solid $accent_active;
+    }
+
+    .button_accent:disabled {
+        background-color: $picked;
+        border: 1.5px solid $picked;
+    }
+
+    .button_accent:disabled {
+        background-color: $picked;
+        border: 2px solid $picked;
+    }
+
+    .button_secondary {
+        background-color: $grey-2;
+        border: 2px solid $grey-2;
+    }
+
+    .button_secondary:disabled {
+        background-color: $dark-grey-2 !important;
+        border: 2px solid $dark-grey-2 !important;
+    }
+
+    .button_secondary:hover {
+        border: 2px solid $light-grey;
+        background-color: $light-grey;
+    }
+
+    .button_ghost {
+        background-color: transparent !important;
+        border: 2px solid transparent !important;
+    }
+
+    .button_ghost :hover {
+        background-color: transparent;
+        border: 2px solid transparent;
+    }
+
+    .caption-L-medium {
+        font-family: $font;
+        font-size: 16px;
+        line-height: 20px;
+        line-height: 104%;
+        letter-spacing: -0.02em;
+        font-weight: 400;
+    }
+
+    .caption-L-regular {
+        font-family: $font;
+        font-size: 16px;
+        line-height: 20px;
+        line-height: 104%;
+        letter-spacing: -0.02em;
+        font-weight: 200;
+    }
+
+    .caption-L-light {
+        font-family: $font;
+        font-size: 16px;
+        line-height: 20px;
+        line-height: 104%;
+        letter-spacing: -0.02em;
+        font-weight: 100;
+    }
+
+    .caption-M-medium {
+        font-family: $font;
+        font-size: 14px;
+        line-height: 18px;
+        line-height: 107%;
+        letter-spacing: -0.02em;
+        font-weight: 400;
+    }
+
+    .caption-M-regular {
+        font-family: $font;
+        font-size: 14px;
+        line-height: 18px;
+        line-height: 107%;
+        letter-spacing: -0.02em;
+        font-weight: 200;
+    }
+
+    .caption-M-light {
+        font-family: $font;
+        font-size: 14px;
+        line-height: 18px;
+        line-height: 107%;
+        letter-spacing: -0.02em;
+        font-weight: 100;
+    }
+
+    .caption-S-regular {
+        font-family: $font;
+        font-size: 12px;
+        line-height: 14px;
+        line-height: 97%;
+        letter-spacing: -0.02em;
+        font-weight: 200;
+    }
+
+    .body-semibold {
+        font-family: $fontBody;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        line-height: 105%;
+
+        p+p {
+            padding-top: 8px;
+        }
+    }
+
+    .body-regular {
+        font-family: $fontBody;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 24px;
+        line-height: 105%;
+
+        p+p {
+            padding-top: 8px;
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    h1 {
+        font-family: $font;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        line-height: 102%;
+        letter-spacing: -0.02em;
+    }
+
+    h2 {
+        font-family: $font;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        line-height: 104%;
+        letter-spacing: -0.02em;
+    }
+
+    button {
+        font-family: $font;
+        font-size: 18px;
+        line-height: 20px;
+        line-height: 93%;
+        font-weight: 200;
+    }
+
+    .button {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: none;
+        align-items: center;
+        text-align: center;
+    }
+
+    .button:disabled {
+        background-color: $picked;
+        border: 2.8px solid $picked;
+    }
+
+    .button:hover {
+        background-color: $on_hover;
+        border: 2.8px solid $on_hover;
+    }
+
+    .button_accent {
+        background-color: $accent_active;
+        border: 2.8px solid $accent_active;
+    }
+
+    .button_alt {
+        background-color: $white;
+        border: 2.8px solid $accent_active;
+    }
+
+    .button_alt:disabled {
+        background-color: $white !important;
+        border: 2.8px solid $accent_active !important;
+    }
+
+    .button_alt:hover {
+        border: 2.8px solid $accent_active !important;
+    }
+
+    .button_secondary {
+        background-color: $grey-2;
+        border: 2.8px solid $grey-2;
+    }
+
+    .button_secondary:disabled {
+        background-color: $dark-grey-2 !important;
+        border: 2.8px solid $dark-grey-2 !important;
+    }
+
+    .button_secondary:hover {
+        border: 2.8px solid $light-grey;
+        background-color: $light-grey;
+    }
+
+    .button_ghost {
+        background-color: transparent !important;
+        border: 2.8px solid transparent !important;
+    }
+
+    .button_ghost :hover {
+        background-color: transparent;
+        border: 2.8px solid transparent;
+    }
+
+    .caption-L-medium {
+        font-family: $font;
+        font-size: 18px;
+        line-height: 24px;
+        line-height: 111%;
+        letter-spacing: -0.02em;
+        font-weight: 400;
+    }
+
+    .caption-L-regular {
+        font-family: $font;
+        font-size: 18px;
+        line-height: 24px;
+        line-height: 111%;
+        letter-spacing: -0.02em;
+        font-weight: 200;
+    }
+
+    .caption-L-light {
+        font-family: $font;
+        font-size: 18px;
+        line-height: 24px;
+        line-height: 111%;
+        letter-spacing: -0.02em;
+        font-weight: 100;
+    }
+
+    .caption-M-medium {
+        font-family: $font;
+        font-size: 16px;
+        line-height: 20px;
+        line-height: 104%;
+        letter-spacing: -0.02em;
+        font-weight: 400;
+    }
+
+    .caption-M-regular {
+        font-family: $font;
+        font-size: 16px;
+        line-height: 20px;
+        line-height: 104%;
+        letter-spacing: -0.02em;
+        font-weight: 200;
+    }
+
+    .caption-M-light {
+        font-family: $font;
+        font-size: 16px;
+        line-height: 20px;
+        line-height: 104%;
+        letter-spacing: -0.02em;
+        font-weight: 100;
+    }
+
+    .caption-S-regular {
+        font-family: $font;
+        font-size: 14px;
+        line-height: 16px;
+        line-height: 95%;
+        letter-spacing: -0.02em;
+        font-weight: 200;
+    }
+
+    .body-semibold {
+        font-family: $fontBody;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        line-height: 101%;
+
+        p+p {
+            padding-top: 8px;
+        }
+    }
+
+    .body-regular {
+        font-family: $fontBody;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 26px;
+        line-height: 101%;
+
+        p+p {
+            padding-top: 8px;
+        }
+    }
+}

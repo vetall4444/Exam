@@ -1,7 +1,6 @@
 {
   "name": "exam",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "global": "^4.4.0",
@@ -20,5 +19,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vetall4444/Exam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vetall4444/Exam/issues"
+  },
+  "homepage": "https://github.com/vetall4444/Exam#readme",
+  "description": ""
 }

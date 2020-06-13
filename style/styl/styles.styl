@@ -1,0 +1,169 @@
+$font = 'Segoe UI';
+$fontBody = 'Times New Roman';
+$color-body = #222222;
+$color-dark-grey = #666666;
+$color-dark-grey-2 = #C4C4C4;
+$color-grey- = #DDDDDD;
+$color-light-grey = #F2F2F2;
+$color-white = #FFFFFF;
+$color-accent-active = #FFCC66;
+$color-picked = #FFDD99;
+$color-on_hover = #FFEECC;
+$colorsucess = #6CD858;
+$color-error = #FF533D;
+.content
+  &__grid
+    display flex
+    flex-direction column
+    min-height 100vh
+    max-height 150vh
+    padding-top 24px
+    margin-top -20px
+    margin-left -24px
+    flex-wrap wrap
+  &__cell
+    padding-left 24px
+    padding-top 20px
+    width 50%
+  &__list
+    margin-top 16px
+  &__item:not(:first-child)
+    margin-top 12px
+
+.footer
+  border-top 1px solid $color-grey
+  height 60px
+  box-sizing border-box
+  background-color $color-light-grey
+  padding 20px 34px 20px 28px
+  display flex
+  justify-content space-between
+  >div
+    line-height 20px
+    font-size 1vw
+  >div:first-child
+    color $color-dark-grey
+  >div:last-child
+    color $color-dark-grey
+  &__link
+    color $color-body
+    margin-left 12px
+  &__email
+    font-weight 500
+    color $color-body
+    &:hover
+      color $color-body
+
+.header
+  border-bottom 1px solid $color-grey
+  height 60px
+  box-sizing border-box
+  background-color $color-light-grey
+  padding 20px 34px 20px 28px
+  display flex
+  justify-content space-between
+  >div
+    display flex
+  &__link
+    line-height 20px
+  &__icon
+    position relative
+    width 20px
+    height 20px
+    margin-left 25px
+    display block
+    &_accent
+      &:after
+        position absolute
+        content ""
+        top 0
+        left 2px
+        box-sizing border-box
+        display block
+        width 6px
+        height 6px
+        border-radius 50%
+        background-color color-accent-active
+        border 1px solid black
+    &:before
+      left 50%
+      top 50%
+      transform translate(-50%,-50%)
+      height 20px
+      width 20px
+      position absolute
+
+.main
+  padding 28px 34px 40px 28px
+  &__grid
+    margin-left -30px
+    margin-top -28px
+    display flex
+    flex-wrap wrap
+    box-sizing border-box
+  &__cell
+    padding-left 30px
+    padding-top 28px
+    box-sizing border-box
+    width 50%
+    &_big
+      width 100%
+  &__buttons
+    display flex
+    li+li
+      margin-left 16px
+
+.side-panel
+  position fixed
+  box-sizing border-box
+  width 80px
+  height 100vh
+  padding 6px 16px 16px 16px
+  background-color $color-light-grey
+  display flex
+  flex-direction column
+  border-right 1px solid $color-grey
+  &__logo
+    display block
+    box-sizing border-box
+    height 54px
+    width 48px
+    background url(../../img/logo.svg) no-repeat 50% 12px
+    background-size 36px auto
+    border-bottom 1px solid $color-grey
+  &__content
+    margin-top 16px
+    display flex
+    flex-direction column
+    flex-grow 1
+    justify-content space-between
+    *+*
+      margin-top 12px
+  &__link
+    position relative
+    width 48px
+    height 48px
+    display block
+    &:before
+      left 50%
+      top 50%
+      transform translate(-50%,-50%)
+      height 16px
+      width 16px
+      position absolute
+    &_accent
+      &:after
+        content ""
+        display block
+        position absolute
+        box-shadow 0px 2px 12px rgba(34, 34, 34, 0.2)
+        top 2px
+        left 2px
+        border-radius 50%
+        background-color $color-accent-active
+        width 8px
+        height 8px
+
+body
+  >div
+    padding-left 80px

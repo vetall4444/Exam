@@ -16,6 +16,15 @@ $hoverIcons = bookmark delete download eye-closed eye-opened more-horizontal not
 $activeIcons = bookmark delete more-horizontal notification qa search;
 $marketIcons = boots building calendar clothes lux profile;
 
+.Page
+  font-family $font
+  font-size 20px
+  line-height 20px
+  &_title
+    font-weight 600
+  &_subtitle
+    font-weight 400
+
 .Page-title {
     font-family: $font;
     font-weight: 600;
@@ -26,7 +35,7 @@ $marketIcons = boots building calendar clothes lux profile;
 
 .Page-subtitle {
     font-family: $font;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 20px;
     line-height: 20px;
     text-transform: uppercase;
@@ -612,8 +621,7 @@ for $icon in $activeIcons {
     height: 48px;
     background-size: contain;
     background-position: 50% 50%;
-
-    &:disabled {
+    &_disabled {
         filter: grayscale(100%);
     }
 

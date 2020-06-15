@@ -1,3 +1,14 @@
+.Page {
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  line-height: 20px;
+}
+.Page_title {
+  font-weight: 600;
+}
+.Page_subtitle {
+  font-weight: 400;
+}
 .Page-title {
   font-family: 'Segoe UI';
   font-weight: 600;
@@ -7,7 +18,7 @@
 }
 .Page-subtitle {
   font-family: 'Segoe UI';
-  font-weight: 200;
+  font-weight: 400;
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
@@ -651,7 +662,7 @@ h1 {
   background-size: contain;
   background-position: 50% 50%;
 }
-.market-icon:disabled {
+.market-icon_disabled {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }

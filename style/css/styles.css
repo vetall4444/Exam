@@ -29,7 +29,7 @@
   margin-top: 12px;
 }
 .footer {
-  border-top: 1px solid $color-grey;
+  border-top: 1px solid #ddd;
   height: 60px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -66,7 +66,7 @@
   color: #222;
 }
 .header {
-  border-bottom: 1px solid $color-grey;
+  border-bottom: 1px solid #ddd;
   height: 60px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -89,6 +89,7 @@
 }
 .header__link {
   line-height: 20px;
+  text-decoration: none;
 }
 .header__icon {
   position: relative;
@@ -173,7 +174,7 @@
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-right: 1px solid $color-grey;
+  border-right: 1px solid #ddd;
 }
 .side-panel__logo {
   display: block;
@@ -183,7 +184,7 @@
   width: 48px;
   background: url("../../img/logo.svg") no-repeat 50% 12px;
   background-size: 36px auto;
-  border-bottom: 1px solid $color-grey;
+  border-bottom: 1px solid #ddd;
 }
 .side-panel__content {
   margin-top: 16px;

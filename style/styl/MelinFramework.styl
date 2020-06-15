@@ -17,13 +17,19 @@ $activeIcons = bookmark delete more-horizontal notification qa search
 $marketIcons = boots building calendar clothes lux profile 
 
 .Page
-  font-family $font
-  font-size 20px
-  line-height 20px
-  &_title
-    font-weight 700
-  &_subtitle
-    font-weight 400
+    font-family $font
+    font-size 20px
+    line-height 20px
+    @media (max-width: 1366px) 
+        font-size 14px
+        line-height 14px 
+    @media (min-width: 1366px) and (max-width: 1920px) 
+        font-size 18px
+        line-height 18px 
+    &_title
+        font-weight 700
+    &_subtitle
+        font-weight 400
 .Page-title 
     font-family: $font 
     font-weight: 700 
@@ -54,19 +60,21 @@ h1
         line-height: 40px 
         line-height: 104% 
 .button 
+    color:inherit
     padding-left: 16px 
     padding-right: 16px 
     padding-top: 8px 
     padding-bottom: 8px 
     border: none 
     align-items: center 
-    text-align: center 
+    text-align: center
+    text-decoration: none 
     &:disabled 
         background-color: $picked 
     &:hover 
         background-color: $on_hover 
         @media (max-width: 1366px) 
-            border: 1.5px solid $on_hover 
+            border: 2px solid $on_hover 
         @media (min-width: 1366px) and (max-width: 1920px) 
             border: 2px solid $on_hover 
         @media (min-width: 1920px) 
@@ -74,7 +82,7 @@ h1
     &_alt
         background-color: $white 
         @media (max-width: 1366px) 
-            border: 1.5px solid $accent_active 
+            border: 2px solid $accent_active 
         @media (min-width: 1366px) and (max-width: 1920px) 
             border: 2px solid $accent_active 
         @media (min-width: 1920px) 
@@ -82,18 +90,18 @@ h1
         &:disabled 
             background-color: $white !important 
             @media (max-width: 1366px) 
-                border: 1.5px solid $accent_active !important 
+                border: 2px solid $accent_active !important 
             @media (min-width: 1366px) and (max-width: 1920px) 
                 border: 2px solid $accent_active !important 
         &:hover
             @media (max-width: 1366px) 
-                border: 1.5px solid $accent_active !important 
+                border: 2px solid $accent_active !important 
             @media (min-width: 1366px) and (max-width: 1920px) 
                 border: 2px solid $accent_active !important 
     &_accent 
         background-color: $accent_active 
         @media (max-width: 1366px) 
-            border: 1.5px solid $accent_active 
+            border: 2px solid $accent_active 
         @media (min-width: 1366px) and (max-width: 1920px) 
             border: 2px solid $accent_active 
         @media (min-width: 1920px) 
@@ -101,7 +109,7 @@ h1
         &:disabled 
             background-color: $picked 
             @media (max-width: 1366px) 
-                border: 1.5px solid $picked 
+                border: 2px solid $picked 
             @media (min-width: 1366px) and (max-width: 1920px) 
                 border: 2px solid $picked 
             @media (min-width: 1920px) 
@@ -109,7 +117,7 @@ h1
     &_secondary 
         background-color: $grey-2 
         @media (max-width: 1366px) 
-            border: 1.5px solid $grey-2 
+            border: 2px solid $grey-2 
         @media (min-width: 1366px) and (max-width: 1920px) 
             border: 2px solid $grey-2 
         @media (min-width: 1920px) 
@@ -117,14 +125,14 @@ h1
         &:disabled 
             background-color: $dark-grey-2 !important 
             @media (max-width: 1366px) 
-                border: 1.5px solid $dark-grey-2 !important 
+                border: 2px solid $dark-grey-2 !important 
             @media (min-width: 1366px) and (max-width: 1920px)
                 border: 2px solid $dark-grey-2 !important 
             @media (min-width: 1920px) 
                 border: 2.8px solid $dark-grey-2 !important 
         &:hover 
             @media (max-width: 1366px) 
-                border: 1.5px solid $light-grey 
+                border: 2px solid $light-grey 
             @media (min-width: 1366px) and (max-width: 1920px) 
                 border: 2px solid $light-grey 
             @media (min-width: 1920px)
@@ -133,7 +141,7 @@ h1
     &_ghost 
         background-color: transparent !important 
         @media (max-width: 1366px) 
-            border: 1.5px solid transparent !important 
+            border: 2px solid transparent !important 
         @media (min-width: 1366px) and (max-width: 1920px) 
             border: 2px solid transparent !important 
         @media (min-width: 1920px) 

@@ -242,3 +242,14 @@
 body >div {
   padding-left: 80px;
 }
+.category-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.category-button li {
+  padding-right: 16px;
+  margin-bottom: 28px;
+  margin-top: 28px;
+}

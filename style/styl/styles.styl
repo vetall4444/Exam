@@ -67,6 +67,7 @@ $color-error = #FF533D;
   &__link
     line-height 20px
     text-decoration:none
+    color: black
   &__icon
     position relative
     width 20px
@@ -84,7 +85,7 @@ $color-error = #FF533D;
         width 6px
         height 6px
         border-radius 50%
-        background-color color-accent-active
+        background-color $color-accent-active
         border 1px solid black
     &:before
       left 50%
@@ -129,8 +130,8 @@ $color-error = #FF533D;
     box-sizing border-box
     height 54px
     width 48px
-    background url(../../img/logo.svg) no-repeat 50% 12px
-    background-size 36px auto
+    background url(../../img/logo.svg) no-repeat 50%
+    background-size auto
     border-bottom 1px solid $color-grey
   &__content
     margin-top 16px

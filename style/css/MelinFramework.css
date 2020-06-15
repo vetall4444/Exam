@@ -4,14 +4,14 @@
   line-height: 20px;
 }
 .Page_title {
-  font-weight: 600;
+  font-weight: 700;
 }
 .Page_subtitle {
   font-weight: 400;
 }
 .Page-title {
   font-family: 'Segoe UI';
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
@@ -25,7 +25,7 @@
 }
 h1 {
   font-family: 'Segoe UI';
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 44px;
   line-height: 102%;
@@ -326,7 +326,7 @@ h1 {
   }
   .body-semibold {
     font-family: 'Times New Roman';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 12px;
     line-height: 24px;
     line-height: 105%;

@@ -103,6 +103,7 @@ $color-error = #FF533D;
     display flex
     flex-wrap wrap
     box-sizing border-box
+    padding-left: 28px
   &__cell
     padding-left 30px
     padding-top 28px
@@ -172,5 +173,36 @@ body
   display flex;
   li
     padding-right: 16px
-    margin-bottom: 28px
-    margin-top: 28px
+    a
+      display: block
+.info_block
+  display: flex
+  margin-top: 28px
+.block
+  width: 50%
+  h1
+    margin-bottom: 24px
+.content
+  margin-bottom 20px
+  &-left
+    width: 50%
+    h2 
+      margin-bottom: 16px
+  &-right 
+    width: 100%
+    background-color: $color-light-grey
+    border 1px solid $color-grey
+    padding-left: 84px
+    padding-right: 24px
+    box-sizing: border-box
+    h2
+      margin-bottom: 8px
+      margin-top: 24px
+      margin-right: 24px
+
+.list__item
+  margin-bottom: 12px
+.box__content
+  display flex
+  flex-wrap: wrap
+  flex-direction: column

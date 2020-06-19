@@ -21,9 +21,6 @@ $marketIcons = boots building calendar clothes lux profile
     font-weight: 200
     font-size: 16px 
     line-height: 24px
-    @media (max-width: 1366px)
-        font-size: 12px 
-        line-height: 24px
     @media (min-width: 1920px)
         font-size: 18px 
         line-height: 26px 
@@ -31,9 +28,6 @@ $marketIcons = boots building calendar clothes lux profile
     font-family $font
     font-size 20px
     line-height 20px
-    @media (max-width: 1366px) 
-        font-size 14px
-        line-height 14px 
     @media (min-width: 1366px) and (max-width: 1920px) 
         font-size 18px
         line-height 18px 
@@ -59,12 +53,8 @@ h1
     letter-spacing: -0.02em 
     line-height: 44px 
     font-size: 36px 
-    @media (max-width: 1366px) 
-        font-size: 28px 
     @media (min-width: 1366px) and (max-width: 1920px) 
         font-size: 32px 
-    @media (max-width: 1366px) 
-        line-height: 44px 
     @media (min-width: 1366px) and (max-width: 1920px) 
         line-height: 40px 
 .button 
@@ -81,66 +71,48 @@ h1
         background-color: $picked 
     &:hover 
         background-color: $on_hover 
-        @media (max-width: 1366px) 
-            border: 2px solid $on_hover 
         @media (min-width: 1366px) and (max-width: 1920px) 
             border: 2px solid $on_hover 
         @media (min-width: 1920px) 
             border: 2.8px solid $on_hover 
     &_alt
         background-color: $white 
-        @media (max-width: 1366px) 
-            border: 2px solid $accent_active 
         @media (min-width: 1366px) and (max-width: 1920px) 
             border: 2px solid $accent_active 
         @media (min-width: 1920px) 
             border: 2.8px solid $accent_active 
         &:disabled 
             background-color: $white !important 
-            @media (max-width: 1366px) 
-                border: 2px solid $accent_active !important 
             @media (min-width: 1366px) and (max-width: 1920px) 
                 border: 2px solid $accent_active !important 
         &:hover
-            @media (max-width: 1366px) 
-                border: 2px solid $accent_active !important 
             @media (min-width: 1366px) and (max-width: 1920px) 
                 border: 2px solid $accent_active !important 
     &_accent 
         background-color: $accent_active 
-        @media (max-width: 1366px) 
-            border: 2px solid $accent_active 
         @media (min-width: 1366px) and (max-width: 1920px) 
             border: 2px solid $accent_active 
         @media (min-width: 1920px) 
             border: 2.8px solid $accent_active 
         &:disabled 
             background-color: $picked 
-            @media (max-width: 1366px) 
-                border: 2px solid $picked 
             @media (min-width: 1366px) and (max-width: 1920px) 
                 border: 2px solid $picked 
             @media (min-width: 1920px) 
                 border: 2.8px solid $picked 
     &_secondary 
         background-color: $grey-2 
-        @media (max-width: 1366px) 
-            border: 2px solid $grey-2 
         @media (min-width: 1366px) and (max-width: 1920px) 
             border: 2px solid $grey-2 
         @media (min-width: 1920px) 
             border: 2.8px solid $grey-2 
         &:disabled 
             background-color: $dark-grey-2 !important 
-            @media (max-width: 1366px) 
-                border: 2px solid $dark-grey-2 !important 
             @media (min-width: 1366px) and (max-width: 1920px)
                 border: 2px solid $dark-grey-2 !important 
             @media (min-width: 1920px) 
                 border: 2.8px solid $dark-grey-2 !important 
         &:hover 
-            @media (max-width: 1366px) 
-                border: 2px solid $light-grey 
             @media (min-width: 1366px) and (max-width: 1920px) 
                 border: 2px solid $light-grey 
             @media (min-width: 1920px)
@@ -148,8 +120,6 @@ h1
             background-color: $light-grey 
     &_ghost 
         background-color: transparent !important 
-        @media (max-width: 1366px) 
-            border: 2px solid transparent !important 
         @media (min-width: 1366px) and (max-width: 1920px) 
             border: 2px solid transparent !important 
         @media (min-width: 1920px) 
@@ -170,67 +140,6 @@ h1
             display: block 
             background-size: contain 
 
-@media (max-width: 1366px) 
-    h2 
-        font-family: $font 
-        font-size: 16px 
-        line-height: 24px 
-        font-weight: 500 
-    button 
-        font-family: $font 
-        font-size: 10px 
-        line-height: 12px 
-        font-weight: 200 
-    .caption-L-medium 
-        font-family: $font 
-        font-size: 12px 
-        line-height: 16px 
-        letter-spacing: -0.02em 
-        font-weight: 400 
-    .caption-L-regular 
-        font-family: $font 
-        font-size: 12px 
-        line-height: 16px 
-        letter-spacing: -0.02em 
-        font-weight: 200 
-    .caption-L-light 
-        font-family: $font 
-        font-size: 12px 
-        line-height: 16px 
-        letter-spacing: -0.02em 
-        font-weight: 100 
-    .caption-M-medium 
-        font-family: $font 
-        font-size: 10px 
-        line-height: 14px 
-        letter-spacing: -0.02em 
-        font-weight: 400 
-    .caption-M-regular 
-        font-family: $font 
-        font-size: 10px 
-        line-height: 14px 
-        letter-spacing: -0.02em 
-        font-weight: 200 
-    .caption-M-light 
-        font-family: $font 
-        font-size: 10px 
-        line-height: 14px 
-        letter-spacing: -0.02em 
-        font-weight: 100 
-    .caption-S-regular 
-        font-family: $font 
-        font-size: 8px 
-        line-height: 10px 
-        letter-spacing: -0.02em 
-        font-weight: 200 
-    .body-semibold 
-        font-family: $fontBody 
-        font-weight: 700 
-        font-size: 12px 
-        line-height: 24px 
-        p+p 
-            padding-top: 8px 
-    
 @media (min-width: 1366px) and (max-width: 1920px) 
     h2 
         font-family: $font 

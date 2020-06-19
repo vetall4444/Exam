@@ -4,12 +4,6 @@
   font-size: 16px;
   line-height: 24px;
 }
-@media (max-width: 1366px) {
-  .body-regular {
-    font-size: 12px;
-    line-height: 24px;
-  }
-}
 @media (min-width: 1920px) {
   .body-regular {
     font-size: 18px;
@@ -20,12 +14,6 @@
   font-family: 'Segoe UI';
   font-size: 20px;
   line-height: 20px;
-}
-@media (max-width: 1366px) {
-  .Page {
-    font-size: 14px;
-    line-height: 14px;
-  }
 }
 @media (min-width: 1366px) and (max-width: 1920px) {
   .Page {
@@ -60,19 +48,9 @@ h1 {
   line-height: 44px;
   font-size: 36px;
 }
-@media (max-width: 1366px) {
-  h1 {
-    font-size: 28px;
-  }
-}
 @media (min-width: 1366px) and (max-width: 1920px) {
   h1 {
     font-size: 32px;
-  }
-}
-@media (max-width: 1366px) {
-  h1 {
-    line-height: 44px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1920px) {
@@ -100,11 +78,6 @@ h1 {
 .button:hover {
   background-color: #fec;
 }
-@media (max-width: 1366px) {
-  .button:hover {
-    border: 2px solid #fec;
-  }
-}
 @media (min-width: 1366px) and (max-width: 1920px) {
   .button:hover {
     border: 2px solid #fec;
@@ -117,11 +90,6 @@ h1 {
 }
 .button_alt {
   background-color: #fff;
-}
-@media (max-width: 1366px) {
-  .button_alt {
-    border: 2px solid #fc6;
-  }
 }
 @media (min-width: 1366px) and (max-width: 1920px) {
   .button_alt {
@@ -136,18 +104,8 @@ h1 {
 .button_alt:disabled {
   background-color: #fff !important;
 }
-@media (max-width: 1366px) {
-  .button_alt:disabled {
-    border: 2px solid #fc6 !important;
-  }
-}
 @media (min-width: 1366px) and (max-width: 1920px) {
   .button_alt:disabled {
-    border: 2px solid #fc6 !important;
-  }
-}
-@media (max-width: 1366px) {
-  .button_alt:hover {
     border: 2px solid #fc6 !important;
   }
 }
@@ -158,11 +116,6 @@ h1 {
 }
 .button_accent {
   background-color: #fc6;
-}
-@media (max-width: 1366px) {
-  .button_accent {
-    border: 2px solid #fc6;
-  }
 }
 @media (min-width: 1366px) and (max-width: 1920px) {
   .button_accent {
@@ -177,11 +130,6 @@ h1 {
 .button_accent:disabled {
   background-color: #fd9;
 }
-@media (max-width: 1366px) {
-  .button_accent:disabled {
-    border: 2px solid #fd9;
-  }
-}
 @media (min-width: 1366px) and (max-width: 1920px) {
   .button_accent:disabled {
     border: 2px solid #fd9;
@@ -194,11 +142,6 @@ h1 {
 }
 .button_secondary {
   background-color: #ddd;
-}
-@media (max-width: 1366px) {
-  .button_secondary {
-    border: 2px solid #ddd;
-  }
 }
 @media (min-width: 1366px) and (max-width: 1920px) {
   .button_secondary {
@@ -213,11 +156,6 @@ h1 {
 .button_secondary:disabled {
   background-color: #c4c4c4 !important;
 }
-@media (max-width: 1366px) {
-  .button_secondary:disabled {
-    border: 2px solid #c4c4c4 !important;
-  }
-}
 @media (min-width: 1366px) and (max-width: 1920px) {
   .button_secondary:disabled {
     border: 2px solid #c4c4c4 !important;
@@ -231,11 +169,6 @@ h1 {
 .button_secondary:hover {
   background-color: #f2f2f2;
 }
-@media (max-width: 1366px) {
-  .button_secondary:hover {
-    border: 2px solid #f2f2f2;
-  }
-}
 @media (min-width: 1366px) and (max-width: 1920px) {
   .button_secondary:hover {
     border: 2px solid #f2f2f2;
@@ -248,11 +181,6 @@ h1 {
 }
 .button_ghost {
   background-color: transparent !important;
-}
-@media (max-width: 1366px) {
-  .button_ghost {
-    border: 2px solid transparent !important;
-  }
 }
 @media (min-width: 1366px) and (max-width: 1920px) {
   .button_ghost {
@@ -282,78 +210,6 @@ h1 {
           transform: translateY(-50%);
   display: block;
   background-size: contain;
-}
-@media (max-width: 1366px) {
-  h2 {
-    font-family: 'Segoe UI';
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-  }
-  button {
-    font-family: 'Segoe UI';
-    font-size: 10px;
-    line-height: 12px;
-    font-weight: 200;
-  }
-  .caption-L-medium {
-    font-family: 'Segoe UI';
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: -0.02em;
-    font-weight: 400;
-  }
-  .caption-L-regular {
-    font-family: 'Segoe UI';
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: -0.02em;
-    font-weight: 200;
-  }
-  .caption-L-light {
-    font-family: 'Segoe UI';
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: -0.02em;
-    font-weight: 100;
-  }
-  .caption-M-medium {
-    font-family: 'Segoe UI';
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: -0.02em;
-    font-weight: 400;
-  }
-  .caption-M-regular {
-    font-family: 'Segoe UI';
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: -0.02em;
-    font-weight: 200;
-  }
-  .caption-M-light {
-    font-family: 'Segoe UI';
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: -0.02em;
-    font-weight: 100;
-  }
-  .caption-S-regular {
-    font-family: 'Segoe UI';
-    font-size: 8px;
-    line-height: 10px;
-    letter-spacing: -0.02em;
-    font-weight: 200;
-  }
-  .body-semibold {
-    font-family: 'Times New Roman';
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 24px;
-  }
-  .body-semibold p+p {
-    padding-top: 8px;
-  }
 }
 @media (min-width: 1366px) and (max-width: 1920px) {
   h2 {
